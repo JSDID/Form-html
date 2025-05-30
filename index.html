@@ -1,13 +1,11 @@
 <!DOCTYPE html>
 <html lang="uk">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./index.css">
     <title>Form-html</title>
 </head>
-
 <body>
     <main>
         <section class="contact">
@@ -15,25 +13,21 @@
             <form class="contact-form" id="contactForm">
                 <fieldset class="contact-form__fieldset">
                     <legend class="contact-form__legend">Контактна форма</legend>
-
                     <div class="contact-form__field">
                         <label class="contact-form__label" for="name">Ім'я:</label>
                         <input class="contact-form__input" type="text" id="name" name="name" />
                         <span class="contact-form__error" id="nameError"></span>
                     </div>
-
                     <div class="contact-form__field">
                         <label class="contact-form__label" for="email">Електронна пошта:</label>
                         <input class="contact-form__input" type="email" id="email" name="email" />
                         <span class="contact-form__error" id="emailError"></span>
                     </div>
-
                     <div class="contact-form__field">
                         <label class="contact-form__label" for="message">Повідомлення:</label>
                         <textarea class="contact-form__textarea" id="message" name="message"></textarea>
                         <span class="contact-form__error" id="messageError"></span>
                     </div>
-
                     <button class="contact-form__submit" type="submit">Відправити</button>
                 </fieldset>
             </form>
@@ -41,5 +35,4 @@
     </main>
     <script src="./index.js"></script>
 </body>
-
 </html>
